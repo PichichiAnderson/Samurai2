@@ -38,10 +38,9 @@ public class Traitre extends Samourai{
 			this.traitrise -= argent * 0.1;
 			this.parler("Je viens de faire une bonne action.");
 		}
-		else {
-			this.parler("Malheuresement je suis bien trop bon. ");
-		}
+		
 		
 	}
+	
 
 }
