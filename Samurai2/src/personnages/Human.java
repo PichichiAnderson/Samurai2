@@ -31,7 +31,7 @@ public class Human {
 	}
 	protected void parler(String msg) {
 		String s= "";
-		s+="(" +this.nom + ")  -";
+		s+="-  ( " +this.nom + " )  -";
 		s+=msg;
 		System.out.println(s);
 	}
