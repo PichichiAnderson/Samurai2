@@ -45,5 +45,11 @@ public class Yakuza extends Human{
 		
 	}
 	
+	public void direBonjour() {
+		super.direBonjour();
+		this.parler("Et j'appartiens au clan des "+this.getClan()+" et j'en suis fier !");
+	}
+	
+	
 
 }
