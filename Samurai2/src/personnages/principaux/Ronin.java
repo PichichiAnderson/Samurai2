@@ -40,4 +40,6 @@ public class Ronin extends Human {
 	}
 	
 	
+	
+	
 }
