@@ -29,6 +29,12 @@ public class Human {
 	public void perdreArgent(int n) {
 		this.argent -= n;
 	}
+	public void direBonjour() {
+		this.parler("Bonjour ! Je m’appelle " +this.getNom()+  " et j’aime boire du "+this.getBoisson()+ ".\n");
+	}
+	public void boire() {
+		this.parler("Mmmm, un bon verre de "+this.getBoisson()+"! GLOUPS !");
+	}
 	protected void parler(String msg) {
 		String s= "";
 		s+="-  ( " +this.nom + " )  -";
